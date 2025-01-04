@@ -1,15 +1,13 @@
 import "./app.css";
+import SiteFooter from "./components/site-footer";
+import SiteNav from "./components/site-nav";
 
 export function App() {
   return (
     <>
+      <SiteNav />
       <h1>play.huyixi.com</h1>
-      <p className="site-footer">
-        <a href="https://huyixi.com" target="_blank" rel="noopener noreferrer">
-          huyixi
-        </a>
-        &nbsp;© 2025
-      </p>
+      <SiteFooter />
     </>
   );
 }
